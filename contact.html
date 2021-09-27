@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact the Royal Kingdom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <nav class="navbar">
+      <a href="index.html" class = "logo">
+      <img src="https://images.pexels.com/photos/4347288/pexels-photo-4347288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      alt = "logo">
+  </a>
+    <ul class="nav-links">
+    <li class="nav-item"><a href="index.html" class="home">Home</a></li>
+    <li class="nav-item"><a href="royal-family.html">Royal Family</a></li>  
+    <li class="nav-item"><a href="assets.html">Royal Assets</a></li> 
+    <li class="nav-item"><a href="contact.html">Contact US</a></li>
+  </ul>
+</nav>
+    <h5>Fill in the form below to contact the Royal Kingdom</h5>
+    <section id="contact">
+        <form id="contactForm" onsubmit="return confirm('Do you really want to submit the form?');">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" value="Arthur"><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" value="arthur.baudoin@icloud.com"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+   </section>
+</body>
+</html>
